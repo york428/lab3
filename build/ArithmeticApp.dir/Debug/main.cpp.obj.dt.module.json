@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "ArithmeticApp.dir\\Debug\\main.obj",
+            "outputs": [
+                "ArithmeticApp.dir\\Debug\\main.cpp.obj.dt.module.json",
+                "ArithmeticApp.dir\\Debug\\main.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

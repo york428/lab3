@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="2faef498-a4c3-3d05-ada5-8261639ddb5c" DefaultStartup="true">
+		<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="googlemock/gmock.vcxproj"/>
+		<BuildDependency Project="googlemock/gmock_main.vcxproj"/>
+		<BuildDependency Project="googletest/gtest.vcxproj"/>
+		<BuildDependency Project="googletest/gtest_main.vcxproj"/>
+	</Project>
+	<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="33402af0-a2c5-3b14-ada2-5c4b5d3721b8">
+		<BuildDependency Project="ALL_BUILD.vcxproj"/>
+		<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="RUN_TESTS.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="fa133801-ec86-39b7-bd06-52f5e150091b">
+		<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="../../ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="41822d8d-3c78-31b9-a328-da08d6aa1f4a"/>
+	<Project Path="googlemock/gmock.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e249cf60-31eb-3e59-88a0-28bebb5580ba">
+		<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="googlemock/gmock_main.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="9659375b-1d73-3a08-918b-35f8ea2f5daf">
+		<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="googletest/gtest.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="96bee0da-0523-3319-b9df-7df36537ab09">
+		<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="googletest/gtest_main.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="26702dd0-e04b-3fa1-b69d-3c7e93ccf43f">
+		<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="googletest/gtest.vcxproj"/>
+	</Project>
+</Solution>
