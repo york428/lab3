@@ -1,3 +1,0 @@
-D:/егэ информатика/lab3/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
-D:/егэ информатика/lab3/build/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
-D:/егэ информатика/lab3/build/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir
